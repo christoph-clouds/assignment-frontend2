@@ -1,0 +1,13 @@
+{
+  players:
+  [
+    {
+      "name": "Magnus Carlsen",
+      "slug": "magnus"
+    },
+    {
+      "name": "Sergey Karjakin",
+      "slug": "sergey"
+    }
+  ]
+}

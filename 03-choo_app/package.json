@@ -1,0 +1,24 @@
+{
+  "name": "03-choo_app",
+  "version": "1.0.0",
+  "description": "a train manager",
+  "main": "index.js",
+  "scripts": {
+    "start": "budo ./index.js --live --pushstate --open -- -g es2040",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "choo",
+    "train",
+    "app"
+  ],
+  "author": "Christoph",
+  "license": "MIT",
+  "dependencies": {
+    "budo": "^11.2.0",
+    "choo": "^3.3.0",
+    "es2040": "^1.2.6",
+    "node-emoji": "^1.8.1",
+    "sheetify": "^7.3.2"
+  }
+}

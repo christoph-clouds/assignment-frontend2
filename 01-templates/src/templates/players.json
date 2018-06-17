@@ -1,0 +1,21 @@
+{
+  players:
+  [
+    {
+      'name': 'shroud',
+      'description': 'The human aimbot'
+    },
+    {
+      'name': 'frankieonpc',
+      'description': 'The legend'
+    },
+    {
+      'name': 'handofblood',
+      'description': 'schlitz!'
+    },
+    {
+      'name': 'moondye7',
+      'description': 'HandOfBloods babysitter'
+    }
+  ]
+}

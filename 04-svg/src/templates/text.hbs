@@ -1,0 +1,47 @@
+<h3>Text</h3>
+
+<h4>Text</h4>
+<div class="row">
+  <div class="col-sm-12">
+    <svg class="svg-style" viewBox="0 0 500 100">
+      <text y="20">Hello, World!</text>
+    </svg>
+  </div>
+</div>
+
+<h4>Text w/ Auto-Wrap</h4>
+<div class="row">
+  <div class="col-sm-12">
+    <svg class="svg-style" viewBox="0 0 500 100">
+      <foreignObject x="0" y="0" width="500" height="100">
+        <p>I was at Albert Einstein's last speech. We were at the final gathering of Mensa. Geniuses around the world came to hear Einstein speak. As he walked onto the stage, in the convention, there was silence. The entire world stopped to listen. All eyes were on him. The future of science depended on what he said. He leaned in, and whispered one thing into the mic. "E."</p>
+      </foreignObject>
+    </svg>
+  </div>
+</div>
+
+<h4>Fancy Text</h4>
+<div class="row">
+  <div class="col-sm-12">
+    <svg class="svg-text" viewBox="0 0 900 450">
+      <text x="0.5%" y="51%" font-size="15em" fill="url(#gr-radial)">
+        Fancy!
+      </text>
+      <text y="50%" font-size="15em" fill="url(#gr-simple)">
+        Fancy!
+      </text>
+
+      <radialGradient id="gr-radial" cx="0" cy="50%" r="10%">
+
+        <stop stop-color="#FFE666" offset="0">
+          <animate attributeName="stop-color" values="#FF00AA;#FFE666;#FFE666;#FF00AA" dur="1s" repeatCount="indefinite" />
+        </stop>
+      </radialGradient>
+
+      <linearGradient id="gr-simple" x1="0" y1="0" x2="100%" y2="100%">
+        <stop stop-color="hsl(50, 100%, 70%)" offset="10%"/>
+        <stop stop-color="hsl(320, 100%, 50%)" offset="90%"/>
+      </linearGradient>
+    </svg>
+  </div>
+</div>

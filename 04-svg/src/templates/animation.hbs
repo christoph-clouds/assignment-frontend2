@@ -1,0 +1,25 @@
+<h3>Animation</h3>
+<div class="row">
+  <div class="col-sm-12">
+    <svg class="svg-animation" viewBox="0 0 900 450">
+      <text x="0.5%" y="51%" font-size="10em" fill="url(#gr-radial)">
+        And animated!
+      </text>
+      <text y="50%" font-size="10em" fill="url(#gr-simple)">
+        And animated!
+      </text>
+
+      <radialGradient id="gr-radial" cx="0" cy="50%" r="10%">
+
+        <stop stop-color="#FFE666" offset="0">
+          <animate attributeName="stop-color" values="#FF00AA;#FFE666;#FFE666;#FF00AA" dur="1s" repeatCount="indefinite" />
+        </stop>
+      </radialGradient>
+
+      <linearGradient id="gr-simple" x1="0" y1="0" x2="100%" y2="100%">
+        <stop stop-color="hsl(50, 100%, 70%)" offset="10%"/>
+        <stop stop-color="hsl(320, 100%, 50%)" offset="90%"/>
+      </linearGradient>
+    </svg>
+  </div>
+</div>
